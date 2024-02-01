@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import argparse
 import os
 import subprocess
@@ -78,7 +79,7 @@ def main():
         "-r",
         "--run",
         action="store_true",
-        help="Run reinstaller",
+        help="Apply changes (no dry run)",
     )
     parser.add_argument("-v", "--version", type=str, help="Pyenv virtualenv version")
 
